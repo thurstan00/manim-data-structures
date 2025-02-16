@@ -11,7 +11,7 @@ from .m_enum import MArrayDirection, MArrayElementComp
 
 
 @utils.exclude_from_deepcopy("_MArrayElement__scene")
-class MArrayElement(VGroup):
+class MArrayElement(VMobject):
     """A class that represents an array element.
 
     Parameters
