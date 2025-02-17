@@ -1725,7 +1725,7 @@ class MArray(VGroup):
 
 
 @utils.exclude_from_deepcopy("_MArrayPointer__scene", "_MArrayPointer__arr")
-class MArrayPointer(VGroup):
+class MArrayPointer(VMobject):
     """A class that represents a pointer.
 
     Parameters
