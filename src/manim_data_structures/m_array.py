@@ -2190,7 +2190,7 @@ class MArrayPointer(VMobject):
 
 
 @utils.exclude_from_deepcopy("_MArraySlidingWindow__scene", "_MArraySlidingWindow__arr")
-class MArraySlidingWindow(VGroup):
+class MArraySlidingWindow(VMobject):
     """A class that represents a sliding window
 
     Parameters
