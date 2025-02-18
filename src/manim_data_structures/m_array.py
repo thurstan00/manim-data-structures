@@ -11,7 +11,7 @@ from .m_enum import MArrayDirection, MArrayElementComp
 
 
 @utils.exclude_from_deepcopy("_MArrayElement__scene")
-class MArrayElement(VGroup):
+class MArrayElement(VMobject):
     """A class that represents an array element.
 
     Parameters
@@ -1725,7 +1725,7 @@ class MArray(VGroup):
 
 
 @utils.exclude_from_deepcopy("_MArrayPointer__scene", "_MArrayPointer__arr")
-class MArrayPointer(VGroup):
+class MArrayPointer(VMobject):
     """A class that represents a pointer.
 
     Parameters
@@ -2190,7 +2190,7 @@ class MArrayPointer(VGroup):
 
 
 @utils.exclude_from_deepcopy("_MArraySlidingWindow__scene", "_MArraySlidingWindow__arr")
-class MArraySlidingWindow(VGroup):
+class MArraySlidingWindow(VMobject):
     """A class that represents a sliding window
 
     Parameters
